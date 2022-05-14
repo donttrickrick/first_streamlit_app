@@ -1,5 +1,6 @@
 import streamlit
 import pandas
+from snowflake.snowpark import Session, version, Window, Row
 
 
 streamlit.title('My Parents New Healthy Diner')
